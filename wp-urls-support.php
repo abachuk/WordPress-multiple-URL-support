@@ -92,5 +92,5 @@ add_action( 'template_redirect', 'relative_url' );
       add_filter( $filter, 'wp_make_link_relative' );
     }
     home_url($path = '', $scheme = null);
-
+}
 ?>
